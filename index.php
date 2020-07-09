@@ -89,7 +89,7 @@
 		<h2>Login</h2>
 		<form action="Connect.php" method="POST">
 			<label>UserName</label>
-			<input type="email" placeholder="Enter UserName" name="username">
+			<input type="text" placeholder="Enter UserName" name="username">
 			<label>Password</label>
 			<input type="password" placeholder="Enter Your Password" name="pass">
 			<button type="submit">Login</button>
