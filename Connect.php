@@ -15,11 +15,12 @@ $result =pg_query($dbconn, $sql);
 $row = pg_num_rows($result);
 if ($row==1)
 {
-	echo "Login failed";
+	
+	header('location: product/index.html');
 }
 else
 {
 
-	header('location: product/index.html');
+	echo "Login failed";
 }
 ?>
